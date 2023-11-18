@@ -6,6 +6,8 @@ Several types of PROMs can be used such as the 6309, 7118, 82S136, 74S471, 74LS4
 
 Arcade machines also use PROMs. The arcade community has recently switched to using EPROMs as a replacement and it has largely worked well.
 
+![An oblique view photo of a Lisa CPU board with lots of IC's soldered in. A larger EPROM sits atop a smaller circuit board that is plugged into a socket below.](https://github.com/RolandJuno/Lisa-PROM/blob/main/Lisa%20PROM.jpg)
+
 ## Assembly
 
 You'll need a 28 pin DIP socket for the EPROM on top of the board. For the bottom, I used 2 x 10 strips of turned (rounded) breakaway header pins. These pins won't stress the sockets on your board as much as machined (square) pins will. Observe the silkscreen for which side to solder the socket and pins on. Observe the notch for orientation.
