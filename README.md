@@ -12,4 +12,4 @@ Arcade machines also use PROMs. The arcade community has recently switched to us
 
 You'll need a 28 pin DIP socket for the EPROM on top of the board. For the bottom, I used 2 x 10 strips of turned (rounded) breakaway header pins. These pins won't stress the sockets on your board as much as machined (square) pins will. Observe the silkscreen for which side to solder the socket and pins on. Observe the notch for orientation.
 
-I used a Winbond 27C512-45 EEPROMs for my boards because they're fast. A slower EPROM is likely to not work. Since you're only using 256 bytes of a 64 KByte device, you'll need to copy the concatenate the contents of the EPROM 256 times.
+I used a Winbond 27C512-45 EEPROMs for my boards because they're fast. A slower EPROM is likely to not work. Since you're only using 256 bytes of a 64 KByte device, you'll need to copy/concatenate the contents of the PROM file 256 times.
