@@ -1,6 +1,6 @@
 # Lisa-PROM
 
-The Lisa CPU and IO boards use a 256 x 8 bipolar PROM. The CPU card uses it as a video state machine as well as storing the unique serial number of the machine. The 2/5 IO card uses it as a floppy disk state machine. The 2/10 IO card does not use a PROM (it uses the Apple IWM chip instead).
+The Lisa CPU and 2/5 IO boards use a 256 x 8 bipolar PROM. The CPU card uses it as a video state machine as well as storing the unique serial number of the machine. The 2/5 IO card uses it as a floppy disk state machine. The 2/10 IO card does not use a PROM (it uses the Apple IWM chip instead).
 
 Several types of PROMs can be used such as the 6309, 7118, 82S136, 74S471, 74LS471, or 28L22. But they are all difficult to program these days as you need access to select vintage EPROM programmers. I tried to locate someone access to one but was unable to.
 
